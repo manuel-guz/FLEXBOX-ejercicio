@@ -1,0 +1,34 @@
+*{
+background-color:darkgrey;
+margin: 0;
+padding: 0;
+}
+
+
+#contenedor{
+    border-top: solid 3px red;
+    background-color: darkgreen;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#contenedor .primero{
+    background-color: red;
+    width: 30%;
+    
+}
+
+#contenedor .segundo{
+    background-color: rgb(228, 12, 217);
+    width: 30%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+h2{
+    margin-top: 30px;
+}
