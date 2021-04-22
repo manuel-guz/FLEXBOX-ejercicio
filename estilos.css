@@ -1,11 +1,15 @@
 *{
-background-color:darkgrey;
+
 margin: 0;
 padding: 0;
 }
 
 
-#contenedor{
+body{
+    background:darkgrey;   
+}
+
+#contenedor {
     border-top: solid 3px red;
     background-color: darkgreen;
     width: 85%;
@@ -16,19 +20,66 @@ padding: 0;
     flex-wrap: wrap;
 }
 
-#contenedor .primero{
+.segundo {
+
+    background: blueviolet;
+}
+
+
+.primero{
     background-color: red;
     width: 30%;
     
 }
 
-#contenedor .segundo{
-    background-color: rgb(228, 12, 217);
+.segundo{
+    /*background-color: rgb(228, 12, 217);*/
     width: 30%;
     padding: 2%;
     box-sizing: border-box;
-}
+    
+    }
+
 
 h2{
     margin-top: 30px;
+}
+
+@media  screen and (min-width:660px) and (max-width:1200px) {
+
+    body{
+
+        background: black;
+    }
+    
+}
+
+.navbar ul {
+
+    display: flex;
+    list-style-type: none;
+
+
+}
+
+.navbar ul li {
+    padding: 1em;
+}
+
+@media screen and (min-width:660px) and (max-width:960px) {
+    body{
+        background: burlywood;
+    }
+    header{
+        flex-wrap: wrap;
+
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+        .banner{
+            display: none;
+        }
+    }
+    
 }
